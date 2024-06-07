@@ -272,7 +272,7 @@ body {
 
 .typewriter2 h1 {
   color: #fff;
-  width: 480px;
+  width: 520px;
   font-family: "Crimson Text", serif !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
@@ -288,7 +288,7 @@ body {
 /* The typing effect */
 @keyframes typing2 {
   from { width: 0 }
-  to { width: 480px}
+  to { width: 520px}
 }
 
 .typewriter3 h1 {
@@ -316,7 +316,7 @@ body {
 
 .typewriter4 h1 {
   color: #fff;
-  width: 530px;
+  width: 600px;
   font-family: "Crimson Text", serif !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
@@ -332,13 +332,13 @@ body {
 /* The typing effect */
 @keyframes typing4 {
   from { width: 0 }
-  to { width: 530px}
+  to { width: 600px}
 }
 
 
 .typewriter5 h1 {
   color: #fff;
-  width: 450px;
+  width: 515px;
   font-family: "Crimson Text", serif !important;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
@@ -354,7 +354,7 @@ body {
 /* The typing effect */
 @keyframes typing5 {
   from { width: 0 }
-  to { width: 450px}
+  to { width: 515px}
 }
 
 
@@ -371,6 +371,35 @@ div.scroll-container img {
   width: 80%;
   padding: 10px;
   border: 3px solid black;
+}
+
+/* contact me  */
+
+.icons-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  gap: 100px; /* Add space between icons */
+ 
+}
+
+
+
+
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+
 }
 
 
